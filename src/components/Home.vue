@@ -108,7 +108,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="../assets/img/shopping.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
+                                <img src="../assets/img/shopping2.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
                                 <h4 class="title text-primary">You shop</h4>
                                 <p class="description">
                                     Shop for your produce.
@@ -117,7 +117,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="../assets/img/farmer.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
+                                <img src="../assets/img/farmer2.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
                                 <h4 class="title text-primary">We pick</h4>
                                 <p class="description">
                                     Then we go pick them.
@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="../assets/img/delivery.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
+                                <img src="../assets/img/delivery2.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
                                 <h4 class="title text-primary">We deliver</h4>
                                 <p class="description">
                                     Then we deliver. 100% free delivery.
@@ -155,7 +155,7 @@ export default {
   name: 'Home',
   data () {
     return {
-      image: 'http://www.responsiblebusiness.com/wp-content/uploads/2017/08/MOA86d.jpg',
+      image: 'https://firebasestorage.googleapis.com/v0/b/kweliproductimages.appspot.com/o/background.png?alt=media&token=577d0a55-23aa-4d08-a70a-13a7372c5be9',
       email: '',
       zipCode: '',
       add_return: null,
