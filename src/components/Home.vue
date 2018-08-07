@@ -108,7 +108,7 @@
                     <div class="row">
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="../assets/img/shopping2.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
+                                <img src="../assets/img/shopping.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
                                 <h4 class="title text-primary">You shop</h4>
                                 <p class="description">
                                     Shop for your produce.
@@ -117,7 +117,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="../assets/img/farmer2.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
+                                <img src="../assets/img/farmer.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
                                 <h4 class="title text-primary">We pick</h4>
                                 <p class="description">
                                     Then we go pick them.
@@ -126,7 +126,7 @@
                         </div>
                         <div class="col-md-4">
                             <div class="team-player">
-                                <img src="../assets/img/delivery2.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
+                                <img src="../assets/img/delivery.png" alt="Thumbnail Image" class="roundeda-circle img-fluid img-raised">
                                 <h4 class="title text-primary">We deliver</h4>
                                 <p class="description">
                                     Then we deliver. 100% free delivery.
@@ -186,8 +186,14 @@ export default {
 
         if (addCustomer.data[1]['code'] == 200) {
             this.add_return = addCustomer.data[1]['message']
+            setTimeout(() => {
+                this.add_return = null
+            }, 3000)
         } else {
             this.error = addCustomer.data[1]['message']
+            setTimeout(() => {
+                this.error = null
+            }, 3000)
         }
     }
   }
